@@ -41,7 +41,7 @@ final class Conversions {
     /**
      * Regular expression pattern to extract a duration value.
      */
-    private static final Pattern DURATION_PATTERN = Pattern.compile("(?:(\\-?\\d+) h)?\\s?(?:(\\-?\\d+) min)?\\s?(?:(\\-?\\d+) s)?\\s?(?:(\\-?\\d+) ms)?");
+    private static final Pattern DURATION_PATTERN = Pattern.compile("(?:(\\-?\\d+) ?h)?\\s?(?:(\\-?\\d+) ?mi?n)?\\s?(?:(\\-?\\d+) ?s)?\\s?(?:(\\-?\\d+) ?ms)?");
 
     /**
      * Prevent direct instantiation by others.
